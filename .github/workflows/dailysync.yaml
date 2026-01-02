@@ -1,9 +1,9 @@
-name: Daily Dune Sync
+# name: Daily Dune Sync
 
-on:
-  schedule:
-    - cron: '27 23 * * *'
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: '27 23 * * *'
+#   workflow_dispatch:
 
 jobs:
   run_script:
